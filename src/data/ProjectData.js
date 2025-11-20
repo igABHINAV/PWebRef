@@ -42,6 +42,14 @@ export const ProjectList = [
   },
 ];
 
+// --------------------------------------- Education List
+export const EducationList = [
+  {
+    college: "IIIT Jabalpur",
+    degree: "Bachelor of Technology in Electronics and Communication Engineering. (Nov 2021 -Jul 2025)"
+  }
+];
+
 export const ExperienceList = [
 
   {
@@ -52,7 +60,11 @@ export const ExperienceList = [
       "Owned and led a team of <strong>3 engineers</strong> to implement a <strong>Kafka-based pub/sub</strong> for short-stay check-ins and check-outs across <strong>10+ Zolo properties</strong>, consolidating event flow across two microservices via an internal SDK.",
       "Engineered a <strong>distributed CRM task-generation microservice</strong> triggered by property events using <strong>ActiveMQ</strong>, automating operational workflows and reducing manual task overhead.",
       "Full lifecycle ownership: system design, performance tuning, CI/CD rollout and production monitoring for high-availability property services.",
-      "Tech stack: <strong>Java, Spring Boot, PostgreSQL, MongoDB, Kafka, ActiveMQ, Docker, Kubernetes</strong>."
+      "Integrated <strong>AWS S3</strong> for file storage and retrieval using <strong>pre-signed URLs</strong>, improving reliability of tenant and property document workflows.",
+      "Owned two internal platforms: an <strong>asset-tracking pipeline</strong> and a <strong>task-scheduling service</strong>, implementing scalable REST APIs, distributed event handling, and persistence models using <strong>PostgreSQL + MongoDB</strong>.",
+      "Implemented <strong>Docker containerization</strong>, optimized <strong>Maven</strong> build configurations, and authored <strong>GitLab CI</strong> pipelines for automated testing, packaging, and deployment.",
+      "Integrated <strong>Grafana dashboards</strong> and log pipelines to strengthen observability, enabling faster debugging of thread starvation, queue backlogs, and serialization bottlenecks.",
+      "Tech stack: <strong>Java, Spring Boot, PostgreSQL, MongoDB, Kafka, ActiveMQ, Docker, Kubernetes, ArgoCD, Maven, AWS S3, GitLab CI, Grafana</strong>."
     ]
   }
   ,
