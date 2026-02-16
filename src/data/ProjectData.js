@@ -57,12 +57,13 @@ export const ExperienceList = [
     role: "SDE 1 (July 2025 - Present)",
     "description": [
     "<strong>Owned</strong> 2 internal platforms: an <strong>asset-tracking pipeline</strong> and a <strong>task-scheduling service</strong>, implementing scalable REST APIs, distributed event handling, and persistence models using <strong>PostgreSQL + MongoDB</strong>.",
-        "Engineered a <strong>multi-threaded, batch-based cleanup mechanism</strong> to remove duplicate records, <strong>deleting 4M+ records in ~7 seconds</strong> (previously >30 seconds).",
-    "Diagnosed and resolved a <strong>cron-triggered API failure</strong> causing duplicate generation of <strong>2M+ records per run</strong>, impacting system stability and downstream processes.",
-    "Reduced <strong>API execution time</strong> from ~90 seconds to 7–12 seconds<strong> (≈85–90% improvement) </strong>by introducing <strong>8-thread parallelism</strong>, <strong>isolating non-critical workloads</strong>, and optimizing MongoDB access patterns.",
+    "Designed and implemented <strong>multi-type task support</strong> (scheduled, instance-based, and event-driven) aligned with evolving business requirements, following high-level system design principles to ensure extensibility and long-term scalability.",
+        "Engineered a <strong>multi-threaded, batch-based cleanup mechanism</strong> to remove duplicate records, <strong>deleting 300k+ records in ~6 seconds</strong> (previously >30 seconds).",
+    "Diagnosed and resolved a <strong>cron-triggered API failure</strong> causing duplicate generation of <strong>1M+ records per run</strong>, impacting system stability and downstream processes.",
+    "Reduced <strong>API execution time</strong> from ~90 seconds to 7–12 seconds<strong> (≈85–90% improvement) </strong>, <strong>isolating non-critical workloads</strong>, and optimizing MongoDB access patterns.",
     "Led design and delivery of a <strong>mid-stay room-change service</strong> built in <strong>Java + Spring Boot</strong> with <strong>real-time inventory validation</strong> and <strong>prorated billing</strong>, ensuring seamless synchronization with partner platforms such as <strong>MakeMyTrip</strong> accross various Zolo properties.",
     "Delivered an <strong>early, cost-efficient language-translation solution</strong> for Zolo Properties by <strong>integrating Google Gemini</strong> to <strong>translate</strong> only task-specific text rather than full pages. Implemented <strong>caching</strong> to <strong>eliminate redundant LLM calls</strong>, cutting annual translation costs by <strong>56%</strong> and completing the project<strong> four days ahead</strong> of schedule.",
-    "Owned and led a team of <strong>3 engineers</strong> to implement a <strong>Kafka-based pub/sub</strong> for short-stay check-ins and check-outs across <strong>10+ Zolo properties</strong>, consolidating event flow across two microservices via an internal SDK.",
+    "Implement a <strong>Kafka-based pub/sub</strong> for short-stay check-ins and check-outs across <strong>10+ Zolo properties</strong>, consolidating event flow across two microservices via an internal SDK.",
     "Engineered a <strong>distributed CRM task-generation microservice</strong> triggered by property events using <strong>ActiveMQ</strong>, automating operational workflows and reducing manual task overhead.",
     "Integrated <strong>AWS S3</strong> for file storage and retrieval using <strong>pre-signed URLs</strong>, improving reliability of tenant and property document workflows.",
     "Integrated <strong>Grafana dashboards</strong> and log pipelines to strengthen observability, enabling faster debugging of thread starvation, queue backlogs, and serialization bottlenecks.",
@@ -76,9 +77,9 @@ export const ExperienceList = [
     role: "SDE Intern (Jan 2025 - June 2025)",
     description: [
       "Implemented <strong>RBAC</strong> in the asset-tracking API via internal SDK, enforcing authorization across <strong>30+ warehouse locations</strong> and reducing unauthorized-access risk.",
-      "Delivered a <strong>GST-compliant invoicing microservice</strong> with a configurable SKU schema, cutting billing discrepancies by <strong>67%</strong> and improving reconciliation accuracy.",
-      "Designed and presented a scalable enterprise asset-management architecture to the CTO and senior leadership; recommendations influenced adoption plans.",
-      "Built a <strong>real-time notification microservice</strong> combining Kafka, ActiveMQ and batch scheduling to deliver asynchronous updates to <strong>50,000+ users</strong>, improving system responsiveness.",
+      "Delivered a <strong>GST-compliant invoicing microservice</strong> with a configurable SKU schema, cutting billing discrepancies and improving reconciliation accuracy.",
+      "Designed and presented a scalable enterprise asset-management architecture to the CTO and senior leadership, recommendations influenced adoption plans.",
+      "Built a <strong>real-time notification microservice</strong> combining Kafka, ActiveMQ and batch scheduling to deliver asynchronous updates to <strong>10,000+ users</strong>, improving system responsiveness of ZoTribe.",
       "Automated <strong>booking tax/GST calculations</strong> by integrating <strong>ancillary-charge logic</strong> into the billing pipeline and optimized PostgreSQL inventory queries via <strong>indexing and tuning</strong>, reducing query latency by <strong>60%</strong>.",
       "Tech stack: <strong>Java, Spring Boot, PostgreSQL, MongoDB, Kafka, ActiveMQ, Docker, Kubernetes</strong>."
     ]
