@@ -56,19 +56,21 @@ export const ExperienceList = [
     title: "Zolo",
     role: "SDE 1 (July 2025 - Present)",
     "description": [
-    "<strong>Owned</strong> 2 internal platforms: an <strong>asset-tracking pipeline</strong> and a <strong>task-scheduling service</strong>, implementing scalable REST APIs, distributed event handling, and persistence models using <strong>PostgreSQL + MongoDB</strong>.",
-    "Designed and implemented <strong>multi-type task support</strong> (scheduled, instance-based, and event-driven) aligned with evolving business requirements, following high-level system design principles to ensure extensibility and long-term scalability.",
-        "Engineered a <strong>multi-threaded, batch-based cleanup mechanism</strong> to remove duplicate records, <strong>deleting 300k+ records in ~6 seconds</strong> (previously >30 seconds).",
-    "Diagnosed and resolved a <strong>cron-triggered API failure</strong> causing duplicate generation of <strong>1M+ records per run</strong>, impacting system stability and downstream processes.",
-    "Reduced <strong>API execution time</strong> from ~90 seconds to 7–12 seconds<strong> (≈85–90% improvement) </strong>, <strong>isolating non-critical workloads</strong>, and optimizing MongoDB access patterns.",
-    "Led design and delivery of a <strong>mid-stay room-change service</strong> built in <strong>Java + Spring Boot</strong> with <strong>real-time inventory validation</strong> and <strong>prorated billing</strong>, ensuring seamless synchronization with partner platforms such as <strong>MakeMyTrip</strong> accross various Zolo properties.",
-    "Delivered an <strong>early, cost-efficient language-translation solution</strong> for Zolo Properties by <strong>integrating Google Gemini</strong> to <strong>translate</strong> only task-specific text rather than full pages. Implemented <strong>caching</strong> to <strong>eliminate redundant LLM calls</strong>, cutting annual translation costs by <strong>56%</strong> and completing the project<strong> four days ahead</strong> of schedule.",
-    "Implement a <strong>Kafka-based pub/sub</strong> for short-stay check-ins and check-outs across <strong>10+ Zolo properties</strong>, consolidating event flow across two microservices via an internal SDK.",
-    "Engineered a <strong>distributed CRM task-generation microservice</strong> triggered by property events using <strong>ActiveMQ</strong>, automating operational workflows and reducing manual task overhead.",
-    "Integrated <strong>AWS S3</strong> for file storage and retrieval using <strong>pre-signed URLs</strong>, improving reliability of tenant and property document workflows.",
-    "Integrated <strong>Grafana dashboards</strong> and log pipelines to strengthen observability, enabling faster debugging of thread starvation, queue backlogs, and serialization bottlenecks.",
-    "Tech stack: <strong>Java, Spring Boot, PostgreSQL, MongoDB, Kafka, ActiveMQ, Docker, Kubernetes, ArgoCD, Maven, AWS S3, GitLab CI, Grafana</strong>."
-  ]
+      "<strong>Owned</strong> 2 internal platforms: an <strong>asset-tracking pipeline</strong> and a <strong>task-scheduling service</strong>, implementing scalable REST APIs, distributed event handling, and persistence models using <strong>PostgreSQL + MongoDB</strong>.",
+      "Designed and implemented <strong>multi-type task support</strong> (scheduled, instance-based, and event-driven) aligned with evolving business requirements, following high-level system design principles to ensure extensibility and long-term scalability.",
+      "Engineered a <strong>multi-threaded, batch-based cleanup mechanism</strong> to remove duplicate records, <strong>deleting 300k+ records in ~6 seconds</strong> (previously >30 seconds).",
+      "Diagnosed and resolved a <strong>cron-triggered API failure</strong> causing duplicate generation of <strong>1M+ records per run</strong>, impacting system stability and downstream processes.",
+      "Reduced <strong>API execution time</strong> from ~90 seconds to 7–12 seconds<strong> (≈85–90% improvement) </strong>, <strong>isolating non-critical workloads</strong>, and optimizing MongoDB access patterns.",
+      "Led design and delivery of a <strong>mid-stay room-change service</strong> built in <strong>Java + Spring Boot</strong> with <strong>real-time inventory validation</strong> and <strong>prorated billing</strong>, ensuring seamless synchronization with partner platforms such as <strong>MakeMyTrip</strong> accross various Zolo properties.",
+      "Delivered an <strong>early, cost-efficient language-translation solution</strong> for Zolo Properties by <strong>integrating Google Gemini</strong> to <strong>translate</strong> only task-specific text rather than full pages. Implemented <strong>caching</strong> to <strong>eliminate redundant LLM calls</strong>, cutting annual translation costs by <strong>56%</strong> and completing the project<strong> four days ahead</strong> of schedule.",
+      "Implement a <strong>Kafka-based pub/sub</strong> for short-stay check-ins and check-outs across <strong>10+ Zolo properties</strong>, consolidating event flow across two microservices via an internal SDK.",
+      "Engineered a <strong>distributed CRM task-generation microservice</strong> triggered by property events using <strong>ActiveMQ</strong>, automating operational workflows and reducing manual task overhead.",
+      "Integrated <strong>AWS S3</strong> for file storage and retrieval using <strong>pre-signed URLs</strong>, improving reliability of tenant and property document workflows.",
+      "Automated <strong>test case generation</strong> aligned with <strong>system design practices</strong> for newly written APIs, leveraging <strong>prompt engineering</strong> and <strong>agile methodologies</strong> to improve test coverage and reduce manual QA effort.",
+      "Wrote <strong>Python scripts</strong> to <strong>migrate and transform 500k+ data items</strong>, ensuring data integrity and consistency across systems.",
+      "Monitored <strong>Grafana dashboards</strong> and <strong>Kibana logs</strong> to track API patterns in real time and resolve production bugs.",
+      "Tech stack: <strong>Java, Spring Boot, PostgreSQL, MongoDB, Kafka, ActiveMQ, Docker, Kubernetes, ArgoCD, Maven, AWS S3, GitLab CI, Grafana</strong>."
+    ]
   }
   ,
 
@@ -112,10 +114,6 @@ export const stackList = [
     img: "/assets/skill/python.png",
     name: "Python",
   },
-  // {
-  //   img: "/assets/skill/flask.png",
-  //   name: "Flask",
-  // },
   {
     img: "/assets/skill/ai.png",
     name: "Generative AI",
@@ -128,10 +126,6 @@ export const stackList = [
     img: "/assets/skill/langchain.png",
     name: "Langgraph/Langchain",
   },
-  // {
-  //   img: "/assets/skill/fastapi.png",
-  //   name: "FastAPI",
-  // },
   {
     img: "/assets/skill/java.png",
     name: "Java",
@@ -152,10 +146,6 @@ export const stackList = [
     img: "/assets/skill/nodejs.png",
     name: "Node Js",
   },
-  // {
-  //   img: "/assets/skill/nestjs.svg",
-  //   name: "Nest Js",
-  // },
   {
     img: "/assets/skill/react.svg",
     name: "ReactJS",
@@ -180,10 +170,6 @@ export const stackList = [
     img: "/assets/skill/postgre.png",
     name: "Postgre SQL",
   },
-  // {
-  //   img: "/assets/skill/elastic.png",
-  //   name: "Elastic Search",
-  // },
   {
     img: "/assets/skill/redis.png",
     name: "Redis",
@@ -194,10 +180,6 @@ export const stackList = [
     name: "Kafka",
   },
 
-  // {
-  //   img: "/assets/skill/rust.svg",
-  //   name: "Rust",
-  // },
 ];
 
 export const toolist = [
@@ -209,10 +191,6 @@ export const toolist = [
     img: "/assets/skill/chat-gpt.png",
     name: "ChatGPT",
   },
-  // {
-  //   img: "/assets/skill/ubuntu.png",
-  //   name: "Ubuntu",
-  // },
   {
     img: "/assets/skill/vs.png",
     name: "Vs code",
@@ -225,14 +203,6 @@ export const toolist = [
     img: "/assets/skill/docker.png",
     name: "Docker",
   },
-  // {
-  //   img: "/assets/skill/grafana.png",
-  //   name: "Grafana",
-  // },
-  // {
-  //   img: "/assets/skill/jenkins.png",
-  //   name: "Jenkins",
-  // },
   {
     img: "/assets/skill/postman.png",
     name: "Postman",
@@ -241,10 +211,6 @@ export const toolist = [
     img: "/assets/skill/argocd.png",
     name: "ArgoCD",
   },
-  // {
-  //   img: "/assets/skill/azure.png",
-  //   name: "Azure",
-  // },
   {
     img: "/assets/skill/mcp.png",
     name: "MCP Server",
